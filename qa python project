@@ -1,0 +1,6 @@
+sentence = input("Enter a sentence: ")
+for char in sentence:
+    if char == " ":
+        print("SPACE")
+    else:
+        print(char)
